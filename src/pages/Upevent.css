@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+  
+  .events-page {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    padding: 5px;
+  }
+  
+  .fit-image {
+     width: 100%;
+     height: 100%; 
+     object-fit: cover;
+     border-radius: 10px;
+     opacity: 0.7;
+      }
+  
+  .events-header h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+  }
+  
+  .events-header p {
+    color: #aaaaaa;
+    margin-top: 10px;
+  }
+  
+  .register-section {
+    text-align: center;
+    margin: 30px 0;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .register-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #e67e22;
+  }
+  
+  .register-section p {
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    font-weight: 500;
+  }
+  
+  .events-section {
+    margin-top: 40px;
+  }
+  
+  .events-section h3 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e67e22;
+  }
+  
+  .events-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+  }
+  
+  .event-card {
+    position: relative; 
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit; 
+    transition: transform 0.3s ease;
+  }
+  .event-card:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  .event-image {
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .event-details {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .event-date {
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #f39c12; 
+    font-weight: bold;
+    font-size: 0.9rem; 
+    padding: 5px 10px; 
+    border-radius: 4px; 
+    z-index: 2; 
+  }
+  
+  
+  .event-name {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .event-time,
+  .event-block {
+    font-size: 0.9rem;
+    color: #bbbbbb;
+  }
+  
+
+  @media (max-width: 600px) {
+
+    .fit-image {
+    height:200px;
+    
+      
+    }
+    .events-page {
+     padding: 10px;
+     
+    }
+
+  }

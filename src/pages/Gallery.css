@@ -1,0 +1,146 @@
+.App {
+    text-align: center;
+    font-family: 'Poppins', sans-serif; 
+    background: linear-gradient(135deg, #121212, #1e1e1e);
+    min-height: 100vh;
+    padding: 28px;
+    color: #fff;
+  }
+  
+  .App h1 {
+    
+    text-shadow: 0px 4px 6px rgba(255, 255, 255, 0.2); 
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    position: relative;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    color: #fff;
+    
+  
+  }
+  
+  .App h1::after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    background: #f39c12;
+    display: block;
+    margin: 10px auto;
+    border-radius: 2px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .section {
+    width: 70%;
+    max-width: 1200px;
+    background: #181818;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
+  }
+  
+  .section h2 {
+    font-size: 1.8rem;
+    color: #e67e22;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 6px rgba(161, 128, 85, 0.2);
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  .image-gallery .image-gallery-slide img {
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    touch-action: pan-y pan-x; 
+    user-select: none; 
+    -webkit-user-drag: none; 
+    cursor: grab; 
+    height:90%;
+  }
+  .image-gallery .image-gallery-slide img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.8);
+  }
+  
+  .image-gallery-thumbnails-container {
+    background: #333;
+    padding: 10px;
+    border-radius: 10px;
+    overflow-x: scroll; 
+    scrollbar-width: none; 
+  }
+  
+  .image-gallery-thumbnail img {
+    border-radius: 8px;
+    transition: transform 0.3s ease, border 0.3s ease;
+    object-fit: contain;
+    aspect-ratio: 16/10;
+  }
+  .image-gallery-thumbnails-container::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  .image-gallery-thumbnail img:hover {
+    transform: scale(1.15);
+    border: 2px solid #f39c12;
+  }
+  
+  .image-gallery-thumbnail.active img {
+    border: 2px solid #e67e22;
+  }
+  
+  footer {
+    margin-top: 40px;
+    color: #aaa;
+    font-size: 0.9rem;
+  }
+  
+  footer a {
+    color: #e67e22;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 2.2rem;
+    }
+  
+    .section h2 {
+      font-size: 1.6rem;
+    }
+  }
+  
+
+  @media (max-width: 768px) {
+    .App h1 {
+      font-size: 2em;
+
+    }
+
+  }
