@@ -51,8 +51,8 @@ const Upevent = () => {
       </section>
 
       <section className="events-section">
-        <h3>Upcoming Events</h3>
-        <div className="events-list">
+        <h3>Comming Soon..</h3>
+        {/* <div className="events-list">
           {events.map((event, index) => (
             <a
               href={event.link}
@@ -101,7 +101,7 @@ const Upevent = () => {
               </div>
             </a>
           ))}
-        </div>
+        </div> */}
       </section>
 
     </div>

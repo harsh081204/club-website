@@ -50,14 +50,14 @@ const Gallery = () => {
           <h2>Kabaddi</h2>
           <ImageGallery items={kabaddiImages} />
         </div>
-        <div className="section">
+        {/* <div className="section">
           <h2>Volleyball</h2>
           <ImageGallery items={volleyballImages} />
         </div>
         <div className="section">
           <h2>Badminton</h2>
           <ImageGallery items={badmintonImages} />
-        </div>
+        </div> */}
       </div>
     </div>
   );
