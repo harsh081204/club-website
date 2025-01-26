@@ -6,6 +6,7 @@ import About from './pages/About';
 import Gallery from './pages/Gallery';
 import Upevent from './pages/Upevent';
 import './App.css';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/Gallery" element={<Gallery />} />
         <Route path="/Upevent" element={<Upevent />} />
       </Routes>
+      <Analytics />
     </div>
   );
 }
