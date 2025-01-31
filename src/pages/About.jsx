@@ -18,9 +18,16 @@ const Card = ({ name, role, image }) => {
 const About = () => {
   const Head = [
     { name: "Kartikay Gupta", role: "President", image: "/Members/Kartikay.jpg" },
+    { name: "Manas Mishra", role: "President-CHE", image: "/Members/Manas.jpg" },
     { name: "Kanishka Mishra", role: "Vice President", image: "/Members/Kanishka.jpg" },
+    { name: "Aadya Agarwal", role: "Vice President-CHE", image: "/Members/Adhya.jpg" },
     { name: "Kautilya Shukla", role: "Secretary", image: "/Members/Kautilya.jpg" },
     { name: "Anshu Yadav", role: "Secretary", image: "/Members/Anshu.jpg" },
+    { name: "Om Kumar Rana", role: "Secretary-CHE", image: "/Members/omKumar.jpg" },
+    { name: "Sneha Gupta", role: "Treasurer", image: "/Members/Sneha.jpg" },
+    { name: "Mujahidul Islam", role: "Treasurer", image: "/Members/Mujahid.jpg" },
+    { name: "Vaishnavi", role: "Poster and Media Design Head", image: "/Members/.jpg" },
+    { name: "Harshit Singh", role: "Poster and Media Design Head", image: "/Members/Harshit.jpg" },
    
   ];
    
@@ -38,7 +45,6 @@ const About = () => {
     { name: "Avni Agrawal", role: "Designer Head", image: "/Members/Avni.jpg" },
     { name: "Karan Pratap Singh", role: "Designer Head", image: "/Members/karan.jpg" },
     { name: "Vibhanshu Shrivastava", role:"Lead Editor", image: "/Members/Vibhanshu.jpg"  },
-    { name: "Mujahidul Islam", role: "Treasurer", image: "/Members/Mujahid.jpg" },
     { name: "Anand Yadav", role: "Designer", image: "/Members/Anand.jpg" },
     { name: "Anant Nigam", role: "Editor", image: "/Members/Anant.png" },
     { name: "Bhoomi Saini", role: "Member", image: "/Members/Bhoomi.jpg" },
@@ -61,14 +67,23 @@ const About = () => {
   ];
 
   const Event = [
-    { name: "Manas Mishra", role: "Event Head", image: "/Members/Manas.jpg" },
-    { name: "Jahnvi Priya", role: "Girls Event Head", image: "/Members/Jahnavi.jpg" },
-    { name: "Kavya Kesarwani", role: "Event Coordinator", image: "/Members/Kavya.jpg" },
-    { name: "Akhil Singh", role:"Member", image: "/Members/Akhil.jpg"  },
-    { name: "Swarnima Patel", role: "Member", image: "/Members/Swarnima.png" },
-    { name: "Adhya Agrawal", role: "Member", image: "/Members/Adhya.jpg" },
-    { name: "Surya Pal", role: "Member", image: "/Members/Surya.jpg" },
+    { name: "Akhil Singh", role:"Event Coordinator", image: "/Members/Akhil.jpg"  },
+    { name: "Manas Mishra", role: "Event Manager", image: "/Members/Manas.jpg" },
+    { name: "Jahnvi Priya", role: "Event Manager", image: "/Members/Jahnavi.jpg" },
+    { name: "Kavya Kesarwani", role: "Event Manager", image: "/Members/Kavya.jpg" },
+    { name: "Swarnima Patel", role: "Event Manager", image: "/Members/Swarnima.png" },
+    { name: "Adhya Agrawal", role: "Event Manager", image: "/Members/Adhya.jpg" },
+    { name: "Surya Pal", role: "Event Manager", image: "/Members/Surya.jpg" },
    
+  ];
+
+  const SocialMedia = [
+    { name: "Namandeep", role: "", image: "/Members/Namandeep.jpeg.jpg" },
+    { name: "Aman Pratap", role: "", image: "/Members/Aman.jpg" },
+    // { name: "Harshvardhan Singh", role:"Web-Developer", image: "/Members/Harshvardhan.jpg"  },
+    // { name: "Aryan Pratap Singh", role: "Member", image: "/Members/Aryan.jpg" },
+    // { name: "Lakshya Keshwani", role: "Member", image: "/Members/lakshya.jpg" },
+    
   ];
 
 
@@ -122,12 +137,34 @@ const About = () => {
   </div>
 </div>
 
-
 <div className="image-container">
   <img src={creative} alt="creative" className="background-image" />
   
   <div className="intro-section">
         <h1 className="section-number">03</h1>
+        <div className="team-description">
+          <h2>Event Manager</h2>
+          <p>
+          As a sports club event manager, Our mission is making every event unforgettable. Through meticulous planning and creative execution, We transform ideas into memorable experiences that unite teams and inspire the community. 
+          </p>
+        </div>
+      </div>
+
+  <div className="scroll-container">
+    <div className="container">
+      {Event.map((person, index) => (
+        <Card key={index} {...person} />
+      ))}
+    </div>
+  </div>
+</div>
+
+
+<div className="image-container">
+  <img src={creative} alt="creative" className="background-image" />
+  
+  <div className="intro-section">
+        <h1 className="section-number">04</h1>
         <div className="team-description">
           <h2>Creative Team</h2>
           <p>
@@ -151,7 +188,7 @@ const About = () => {
   <img src={creative} alt="creative" className="background-image" />
   
   <div className="intro-section">
-        <h1 className="section-number">04</h1>
+        <h1 className="section-number">05</h1>
         <div className="team-description">
           <h2>Videographer Team</h2>
           <p>
@@ -175,23 +212,27 @@ const About = () => {
   <img src={creative} alt="creative" className="background-image" />
   
   <div className="intro-section">
-        <h1 className="section-number">05</h1>
+        <h1 className="section-number">06</h1>
         <div className="team-description">
-          <h2>Event Manager</h2>
+          <h2>Social Media Managers</h2>
           <p>
-          As a sports club event manager, Our mission is making every event unforgettable. Through meticulous planning and creative execution, We transform ideas into memorable experiences that unite teams and inspire the community. 
+            As a social media manager, we craft engaging content and build a strong online presence for our club. Through creativity and strategy, we connect with our community, amplify our achievements, and bring the spirit of the game to a wider audience
           </p>
         </div>
       </div>
 
   <div className="scroll-container">
     <div className="container">
-      {Event.map((person, index) => (
+      {SocialMedia.map((person, index) => (
         <Card key={index} {...person} />
       ))}
     </div>
   </div>
 </div>
+
+
+
+
 
 
 
