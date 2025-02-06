@@ -27,7 +27,7 @@ const About = () => {
     { name: "Sneha Gupta", role: "Treasurer", image: "/Members/Sneha.jpg" },
     { name: "Mujahidul Islam", role: "Treasurer", image: "/Members/Mujahid.jpg" },
     { name: "Vaishnavi", role: "Poster and Media Design Head", image: "/Members/.jpg" },
-    { name: "Harshit Singh", role: "Poster and Media Design Head", image: "/Members/Harshit.jpg" },
+    { name: "Harshit Arora", role: "Poster and Media Design Head", image: "/Members/Harshit.jpg" },
    
   ];
    
