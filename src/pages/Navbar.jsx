@@ -51,8 +51,8 @@ const Navbar = () => {
       }`}
     >
       <div className="logo">
-        <img src={footprintslogo} alt="Energy Club Logo" />
-        Footprints
+        <img src={logo} alt="Energy Club Logo" />
+        EnergyClub
       </div>
       <div className={`nav-links-container ${menuOpen ? "open" : ""}`}>
         <ul className="nav-links">
@@ -66,7 +66,7 @@ const Navbar = () => {
             <li>Gallery</li>
           </NavLink>
           <NavLink to="/Upevent" onClick={closeMenu}>
-            <li className="upcoming-events-link">Upcoming Events</li>
+            <li className="upcoming-events-link">Footprint</li>
           </NavLink>
         </ul>
       </div>

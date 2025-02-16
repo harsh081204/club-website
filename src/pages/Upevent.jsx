@@ -55,7 +55,8 @@ const Upevent = () => {
       </section>
 
       <section className="events-section">
-        {/* <h3>Comming Soon..</h3> */}
+        <h3>Upcoming Event
+        </h3>
         <div className="events-list">
           {events.map((event, index) => (
             <a
