@@ -9,7 +9,7 @@ const HeroSection = ({ images }) => {
       setCurrentImageIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 8000); // Change image every 6 seconds
+    }, 10000); // Change image every 6 seconds
     return () => clearInterval(interval);
   }, [images.length]);
 
