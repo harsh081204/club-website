@@ -9,7 +9,7 @@ const HeroSection = ({ images }) => {
       setCurrentImageIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 6000); // Change image every 6 seconds
+    }, 8000); // Change image every 6 seconds
     return () => clearInterval(interval);
   }, [images.length]);
 
@@ -50,7 +50,7 @@ const HeroSection = ({ images }) => {
           </svg>
         </button>
       </div>
-      <div className="hero-content">
+      {/* <div className="hero-content">
         <h2 className="welcome-text">Welcome to</h2>
         <h1>
           <span className="highlight">The Energy Club</span>
@@ -58,7 +58,7 @@ const HeroSection = ({ images }) => {
         <p>
         "Strength in Unity, Power in Teamwork, Victory in Sportsmanship! Together We Conquer, Together We Thrive, Every Effort Counts, Every Win is Ours!"
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -3,6 +3,8 @@ import "../pages/Navbar.css";
 import { NavLink } from "react-router-dom";
 import logo from "../assets/logo.jpg";
 import ring from "../assets/ring.svg";
+import footprintslogo from "../assets/Footprintslogo.png";
+
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -49,8 +51,8 @@ const Navbar = () => {
       }`}
     >
       <div className="logo">
-        <img src={logo} alt="Energy Club Logo" />
-        EnergyClub
+        <img src={footprintslogo} alt="Energy Club Logo" />
+        Footprints
       </div>
       <div className={`nav-links-container ${menuOpen ? "open" : ""}`}>
         <ul className="nav-links">
@@ -71,7 +73,7 @@ const Navbar = () => {
       <NavLink to="/Upevent">
         <button className="register-button">
           <img src={ring} alt="Register" />
-          <p>Upcoming Events</p>
+          <p>Register for Footprints</p>
         </button>
       </NavLink>
       <div className="burger-menu" onClick={toggleMenu}>
