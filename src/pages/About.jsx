@@ -24,61 +24,53 @@ const About = () => {
     { name: "Kautilya Shukla", role: "Secretary", image: "/Members/Kautilya.jpg" },
     { name: "Anshu Yadav", role: "Secretary", image: "/Members/Anshu.jpg" },
     { name: "Om Kumar Rana", role: "Secretary-CHE", image: "/Members/omKumar.jpg" },
-    { name: "Sneha Gupta", role: "Treasurer", image: "/Members/Sneha.jpg" },
     { name: "Mujahidul Islam", role: "Treasurer", image: "/Members/Mujahid.jpg" },
-    { name: "Vaishnavi", role: "Poster and Media Design Head", image: "/Members/.jpg" },
-    { name: "Harshit Arora", role: "Poster and Media Design Head", image: "/Members/Harshit.jpg" },
+    { name: "Sneha Gupta", role: "Treasurer-CHE", image: "/Members/Sneha.jpg" },
    
   ];
    
   const Technical = [
-    { name: "Shantanu", role: "Technical-Team head", image: "/Members/Shantanu.jpg" },
+    { name: "Shantanu", role: "Technical head", image: "/Members/Shantanu.jpg" },
     { name: "Ishver Chandra Jaiswal", role: "Web-Developer", image: "/Members/my-image.png" },
-    { name: "Harshvardhan Singh", role:"Web-Developer", image: "/Members/Harshvardhan.jpg"  },
-    { name: "Aryan Pratap Singh", role: "Member", image: "/Members/Aryan.jpg" },
+    { name: "Harsh Vardhan ", role:"Web-Developer", image: "/Members/Harshvardhan.jpg"  },
+    { name: "Aryan Pratap Singh", role: "UI Designer", image: "/Members/Aryan.jpg" },
     { name: "Lakshya Keshwani", role: "Member", image: "/Members/lakshya.jpg" },
     
   ];
 
   const Creative = [
     { name: "Apoorva Pandey", role: "Creative Head", image: "/Members/Apoorva.jpg" },
-    { name: "Avni Agrawal", role: "Designer Head", image: "/Members/Avni.jpg" },
     { name: "Karan Pratap Singh", role: "Designer Head", image: "/Members/karan.jpg" },
-    { name: "Vibhanshu Shrivastava", role:"Lead Editor", image: "/Members/Vibhanshu.jpg"  },
+    { name: "Avni Agrawal", role: "Designer", image: "/Members/Avni.jpg" },
     { name: "Anand Yadav", role: "Designer", image: "/Members/Anand.jpg" },
+    { name: "Vibhanshu Shrivastava", role:"Lead Editor", image: "/Members/Vibhanshu.jpg"  },
     { name: "Anant Nigam", role: "Editor", image: "/Members/Anant.png" },
-    { name: "Bhoomi Saini", role: "Member", image: "/Members/Bhoomi.jpg" },
-    { name: "Aman Pratap", role: "Social Media Manager", image: "/Members/Aman.jpg" },
-    { name: "Namandeep Singh", role: "Social Media Manager", image: "/Members/Namandeep.jpeg.jpg" },
     { name: "Nandini Gupta", role: "Editor", image: "/Members/Nandini.jpg" },
+    { name: "Bhoomi Saini", role: "Member", image: "/Members/Bhoomi.jpg" }
     
     
   ];
 
   const Videographer = [
     { name: "Prakash Dixit", role: "Head Photographer", image: "/Members/Prakash.jpg" },
-    { name: "Ashwani Singh", role: "Member", image: "/Members/Ashwani.jpeg.jpg" },
+    { name: "Uday Gupta", role: "Member", image: "/Members/uday.jpg" },
+    { name: "Ashwani Singh Senger", role: "Member", image: "/Members/Ashwani.jpeg.jpg" },
     { name: "Pratyush Gupta", role: "Member", image: "/Members/Pratyush.jpg" },
     { name: "Anubhav Pathak", role:"Member", image: "/Members/Anubhav.jpg"  },
     { name: "Harshit Arora", role: "Member", image: "/Members/Harshit.jpg" },
-    { name: "Uday Gupta", role: "Member", image: "/Members/uday.jpg" },
     { name: "Surya Pal", role: "Member", image: "/Members/Surya.jpg" },
    
   ];
 
   const Event = [
-    { name: "Akhil Singh", role:"Event Coordinator", image: "/Members/Akhil.jpg"  },
-    { name: "Manas Mishra", role: "Event Manager", image: "/Members/Manas.jpg" },
+    { name: "Akhil Kumar Singh", role:"Event Coordinator", image: "/Members/Akhil.jpg"  },
     { name: "Jahnvi Priya", role: "Event Manager", image: "/Members/Jahnavi.jpg" },
-    { name: "Kavya Kesarwani", role: "Event Manager", image: "/Members/Kavya.jpg" },
     { name: "Swarnima Patel", role: "Event Manager", image: "/Members/Swarnima.png" },
-    { name: "Adhya Agrawal", role: "Event Manager", image: "/Members/Adhya.jpg" },
-    { name: "Surya Pal", role: "Event Manager", image: "/Members/Surya.jpg" },
    
   ];
 
   const SocialMedia = [
-    { name: "Namandeep", role: "", image: "/Members/Namandeep.jpeg.jpg" },
+    { name: "Namandeep Singh", role: "", image: "/Members/Namandeep.jpeg.jpg" },
     { name: "Aman Pratap", role: "", image: "/Members/Aman.jpg" },
     // { name: "Harshvardhan Singh", role:"Web-Developer", image: "/Members/Harshvardhan.jpg"  },
     // { name: "Aryan Pratap Singh", role: "Member", image: "/Members/Aryan.jpg" },

@@ -10,29 +10,41 @@ import Badminton from "../assets/Badminton.webp";
 import TableTennis from "../assets/TableTennis.webp";
 import Squidgame from "../assets/SquidGame.jpg";
 import footprintbg from '../assets/landingpage.png'
+import basketball from '../assets/Basketball.jpg'
+import carrom from '../assets/Carrom.jpg'
+import jumps from '../assets/Jumps.jpg'
+import kho from '../assets/Kho-Kho.jpg'
+import sprint from '../assets/Sprints.jpg'
+import throws from '../assets/Throws.jpg'
+import tugofwar from '../assets/TugofWar.jpg'
 
 
 
 const Upevent = () => {
   const events = [
-    { name: 'Squid Game', time: 'Coming Soon', block: 'Girls Basketball Ground', date:'03 Feb', image: Squidgame, link: 'https://forms.gle/rv2KBhR3osTuu25T9' },
-    { name: 'Gully Cricket', time: '5:30 pm - 6:30 pm', block: 'Girls Basketball Ground', date:'04 Feb', image: Football, link: 'https://forms.gle/sdgWuY8SbM5vREUE7' },
-    // { name: 'Kabaddi', time: '5:30 pm - 6:30 pm', block: 'R-Block', date:'16 Dec', image: Kabaddi, link: 'https://example.com/kabaddi' },
-    // { name: 'Volleyball', time: '5:30 pm - 6:30 pm', block: 'R-Block', date:'17 Dec', image: Volleyball, link: 'https://example.com/volleyball' },
-    // { name: 'Chess', time: '5:30 pm - 6:30 pm', block: 'R-Block', date:'18 Dec', image: Chess, link: 'https://example.com/chess' },
-    // { name: 'Gambling', time: '5:30 pm - 6:30 pm', block: 'R-Block', date:'19 Dec', image: Gambling, link: 'https://example.com/gambling' },
-    // { name: 'Badminton', time: '5:30 pm - 6:30 pm', block: 'R-Block', date:'20 Dec', image: Badminton, link: 'https://example.com/badminton' },
-    // { name: 'Table-Tennis', time: '5:30 pm - 6:30 pm', block: 'R-Block', date:'21 Dec', image: TableTennis, link: 'https://example.com/table-tennis' },
+    { name: 'Basketball', time: '', block: 'R-Block', date:'29 March', image: basketball, link: 'https://forms.gle/obd7SdbVn1TiejYn6' },
+    { name: 'Badminton', time: '', block: 'R-Block', date:'29 March', image: Badminton, link: 'https://forms.gle/E2gHHVbUJYQWzXCG9' },
+    { name: 'Table-Tennis', time: '', block: 'R-Block', date:'29 March', image: TableTennis, link: 'https://example.com/table-tennis' },
+    { name: 'Chess', time: '', block: 'R-Block', date:'29 March', image: Chess, link: 'https://example.com/chess' },
+    { name: 'Carrom', time: '', block: 'R-Block', date:'29 March', image: carrom, link: 'https://example.com/gambling' },
+    { name: 'Jumps', time: '', block: 'R-Block', date:'29 March', image: jumps, link: 'https://forms.gle/sdgWuY8SbM5vREUE7' },
+    { name: 'Volleyball', time: '', block: 'R-Block', date:'30 March', image: Volleyball, link: 'https://forms.gle/rpz953UCYbqwztxL8' },
+    { name: 'Sprints', time: '', block: 'R-Block', date:'30 March', image:sprint , link: 'https://forms.gle/sdgWuY8SbM5vREUE7' },
+    { name: 'Football', time: '', block: 'R-Block', date:'30 March', image:Football , link: 'https://forms.gle/pZhChZQhRKHsFAtv7' },
+    { name: 'Kho-Kho', time: '', block: 'R-Block', date:'30 March', image:kho, link: 'https://forms.gle/ZKw15PAtRnDMP6kQ7' },
+    { name: 'Kabaddi', time: '', block: 'R-Block', date:'31 March', image: Kabaddi, link: 'hhttps://forms.gle/trTfLXmUnGn8WyGm6' },
+    { name: 'Tug of War', time: '', block: 'R-Block', date:'01 April', image: tugofwar, link: 'https://forms.gle/h64ft6dzjDmSDG7s9' },
+    { name: 'Throws', time: '', block: 'R-Block', date:'01 April', image: throws , link: 'https://forms.gle/sdgWuY8SbM5vREUE7' },
   ];
 
   const pastevents = [
-    { name: 'Football', time: '5:30 pm - 6:30 pm', block: 'R-Block', date:'15 Dec', image: Football, link: 'https://forms.gle/sdgWuY8SbM5vREUE7' },
-    { name: 'Kabaddi', time: '5:30 pm - 6:30 pm', block: 'R-Block', date:'16 Dec', image: Kabaddi, link: '/pages/KabaddiWinner.jsx' },
-    { name: 'Volleyball', time: '5:30 pm - 6:30 pm', block: 'R-Block', date:'17 Dec', image: Volleyball, link: 'https://example.com/volleyball' },
-    { name: 'Chess', time: '5:30 pm - 6:30 pm', block: 'R-Block', date:'18 Dec', image: Chess, link: 'https://example.com/chess' },
-    { name: 'Gambling', time: '5:30 pm - 6:30 pm', block: 'R-Block', date:'19 Dec', image: Gambling, link: 'https://example.com/gambling' },
-    { name: 'Badminton', time: '5:30 pm - 6:30 pm', block: 'R-Block', date:'20 Dec', image: Badminton, link: 'https://example.com/badminton' },
-    { name: 'Table-Tennis', time: '5:30 pm - 6:30 pm', block: 'R-Block', date:'21 Dec', image: TableTennis, link: 'https://example.com/table-tennis' },
+    { name: 'Football', time: '', block: 'R-Block', date:'15 Dec', image: Football, link: 'https://forms.gle/sdgWuY8SbM5vREUE7' },
+    { name: 'Kabaddi', time: '', block: 'R-Block', date:'16 Dec', image: Kabaddi, link: '/pages/KabaddiWinner.jsx' },
+    { name: 'Volleyball', time: '', block: 'R-Block', date:'17 Dec', image: Volleyball, link: 'https://example.com/volleyball' },
+    { name: 'Chess', time: '', block: 'R-Block', date:'18 Dec', image: Chess, link: 'https://example.com/chess' },
+    { name: 'Gambling', time: '', block: 'R-Block', date:'19 Dec', image: Gambling, link: 'https://example.com/gambling' },
+    { name: 'Badminton', time: '', block: 'R-Block', date:'20 Dec', image: Badminton, link: 'https://example.com/badminton' },
+    { name: 'Table-Tennis', time: '', block: 'R-Block', date:'21 Dec', image: TableTennis, link: 'https://example.com/table-tennis' },
   ];
 
   
