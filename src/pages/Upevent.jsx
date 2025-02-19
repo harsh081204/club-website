@@ -32,7 +32,7 @@ const Upevent = () => {
     // { name: 'Sprints', time: '', block: 'R-Block', date:'30 March', image:sprint , link: 'https://forms.gle/sdgWuY8SbM5vREUE7' },
     { name: 'Football', time: '', block: 'R-Block', date:'30 March', image:Football , link: 'https://forms.gle/pZhChZQhRKHsFAtv7' },
     { name: 'Kho-Kho', time: '', block: 'R-Block', date:'30 March', image:kho, link: 'https://forms.gle/ZKw15PAtRnDMP6kQ7' },
-    { name: 'Kabaddi', time: '', block: 'R-Block', date:'31 March', image: Kabaddi, link: 'hhttps://forms.gle/trTfLXmUnGn8WyGm6' },
+    { name: 'Kabaddi', time: '', block: 'R-Block', date:'31 March', image: Kabaddi, link: 'https://forms.gle/trTfLXmUnGn8WyGm6' },
     { name: 'Tug of War', time: '', block: 'R-Block', date:'01 April', image: tugofwar, link: 'https://forms.gle/h64ft6dzjDmSDG7s9' },
     // { name: 'Throws', time: '', block: 'R-Block', date:'01 April', image: throws , link: 'https://forms.gle/sdgWuY8SbM5vREUE7' },
   ];
