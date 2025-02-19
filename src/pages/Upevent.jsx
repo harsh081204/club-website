@@ -9,7 +9,7 @@ import Gambling from "../assets/Gambling.webp";
 import Badminton from "../assets/Badminton.webp";
 import TableTennis from "../assets/TableTennis.webp";
 import Squidgame from "../assets/SquidGame.jpg";
-import footprintbg from '../assets/landingpage.png'
+import footprintbgm from '../assets/footprintbgm.png'
 
 
 
@@ -39,7 +39,7 @@ const Upevent = () => {
   return (
     <div className="events-page">
       <header className="events-header">
-        <img src={footprintbg} alt="event" className="fit-image" />
+        <img src={footprintbgm} alt="event" className="fit-image" />
       </header>
 
       <section className="register-section">
