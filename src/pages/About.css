@@ -278,12 +278,16 @@ html{
     width: 90%;
     left: 5%;
   }
+  .team-description{
+    margin-top: -50px;
+  }
 
   .team-description h2 {
     font-size: 1.5rem;
   }
 
   .team-description p {
+   
     font-size: 0.8rem;
   }
 

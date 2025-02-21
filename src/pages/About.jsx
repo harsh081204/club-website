@@ -66,7 +66,8 @@ const About = () => {
     { name: "Akhil Kumar Singh", role:"Event Coordinator", image: "/Members/Akhil.jpg"  },
     { name: "Jahnvi Priya", role: "Event Manager", image: "/Members/Jahnavi.jpg" },
     { name: "Swarnima Patel", role: "Event Manager", image: "/Members/Swarnima.png" },
-   
+    { name: "Kavya Kesarwani", role: "Event Manager", image: "/Members/Kavya.jpg" },
+    
   ];
 
   const SocialMedia = [
