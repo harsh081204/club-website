@@ -8,7 +8,7 @@ import footprintbg from '../assets/landingpage.png'
 const Home = () => {
 
   const carouselImages = [
-    footprintbg,homebg1, homebg2, homebg3
+    footprintbg //,homebg1, homebg2, homebg3
   ];
 
   return (

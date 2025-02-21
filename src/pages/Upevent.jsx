@@ -9,7 +9,7 @@ import Gambling from "../assets/Gambling.webp";
 import Badminton from "../assets/Badminton.webp";
 import TableTennis from "../assets/TableTennis.webp";
 import Squidgame from "../assets/SquidGame.jpg";
-import footprintbg from '../assets/landingpage.png'
+import footprintbg from '../assets/RegistrationPage.png'
 import basketball from '../assets/Basketball.jpg'
 import carrom from '../assets/Carrom.jpg'
 import jumps from '../assets/Jumps.jpg'
