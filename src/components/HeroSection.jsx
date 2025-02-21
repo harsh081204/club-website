@@ -1,5 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import '../components/HeroSection.css'
+import psit from "../assets/psit.png"
+import footprint from "../assets/footprint.png"
+import naac from "../assets/naac.png"
+import Samarthyam from "../assets/Samarthyam.png"
+import foot from "../assets/foot.webp"
+import K25 from "../assets/K25.png"
+
 
 const HeroSection = ({ images }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -59,6 +66,32 @@ const HeroSection = ({ images }) => {
         "Strength in Unity, Power in Teamwork, Victory in Sportsmanship! Together We Conquer, Together We Thrive, Every Effort Counts, Every Win is Ours!"
         </p>
       </div> */}
+      
+      <div className="hero-content">
+      <div className="handprints-bg">
+      <img src={foot} className="bigin" ></img>
+      <img src={K25} className="bigan"></img>
+        <img src={Samarthyam} className="bigun"></img>
+        <p className="quote">
+          "Unleash Your True Potential!"<br/>
+          Step up, show your strength, and prove<br/> that capability knows no limits!
+        </p>
+        
+        <div className="sponsors-section">
+          <h4 className="sponsors-title">Our Sponsors</h4>
+          <div className="sponsors-logos">
+            <img src={psit} alt="PSIT Kanpur" className="sponsor-logo" id="pslogo" />
+            <img src={naac} alt="NAAC A+" className="sponsor-logo" id="nac" />
+            <img src={footprint} alt="Footprints" className="sponsor-logo" id="footlogo" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
     </div>
   );
 };
