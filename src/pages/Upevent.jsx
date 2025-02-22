@@ -8,33 +8,39 @@ import Chess from "../assets/Chess.jpg";
 import Gambling from "../assets/Gambling.webp";
 import Badminton from "../assets/Badminton.webp";
 import TableTennis from "../assets/TableTennis.webp";
-import Squidgame from "../assets/SquidGame.jpg";
 import footprintbg from '../assets/RegistrationPage.png'
 import basketball from '../assets/Basketball.jpg'
 import carrom from '../assets/Carrom.jpg'
 import jumps from '../assets/Jumps.jpg'
 import kho from '../assets/Kho-Kho.jpg'
-import sprint from '../assets/Sprints.jpg'
+import running from '../assets/running.jpg'
 import throws from '../assets/Throws.jpg'
 import tugofwar from '../assets/TugofWar.jpg'
-
+import discusthrow from '../assets/discusthrow.jpg'
+import longjump from '../assets/longjump.jpg'
+import shotput from '../assets/shotput.jpg'
+import slowcycling from '../assets/slowcycling.jpg'
 
 
 const Upevent = () => {
   const events = [
-    { name: 'Basketball', time: '', block: 'R-Block', date:'29 March', image: basketball, link: 'https://forms.gle/obd7SdbVn1TiejYn6' },
-    { name: 'Badminton', time: '', block: 'R-Block', date:'29 March', image: Badminton, link: 'https://forms.gle/E2gHHVbUJYQWzXCG9' },
-    // { name: 'Table-Tennis', time: '', block: 'R-Block', date:'29 March', image: TableTennis, link: 'https://example.com/table-tennis' },
-    // { name: 'Chess', time: '', block: 'R-Block', date:'29 March', image: Chess, link: 'https://example.com/chess' },
-    // { name: 'Carrom', time: '', block: 'R-Block', date:'29 March', image: carrom, link: 'https://example.com/gambling' },
-    // { name: 'Jumps', time: '', block: 'R-Block', date:'29 March', image: jumps, link: 'https://forms.gle/sdgWuY8SbM5vREUE7' },
-    { name: 'Volleyball', time: '', block: 'R-Block', date:'30 March', image: Volleyball, link: 'https://forms.gle/rpz953UCYbqwztxL8' },
-    // { name: 'Sprints', time: '', block: 'R-Block', date:'30 March', image:sprint , link: 'https://forms.gle/sdgWuY8SbM5vREUE7' },
-    { name: 'Football', time: '', block: 'R-Block', date:'30 March', image:Football , link: 'https://forms.gle/pZhChZQhRKHsFAtv7' },
-    { name: 'Kho-Kho', time: '', block: 'R-Block', date:'30 March', image:kho, link: 'https://forms.gle/ZKw15PAtRnDMP6kQ7' },
-    { name: 'Kabaddi', time: '', block: 'R-Block', date:'31 March', image: Kabaddi, link: 'https://forms.gle/trTfLXmUnGn8WyGm6' },
-    { name: 'Tug of War', time: '', block: 'R-Block', date:'01 April', image: tugofwar, link: 'https://forms.gle/h64ft6dzjDmSDG7s9' },
-    // { name: 'Throws', time: '', block: 'R-Block', date:'01 April', image: throws , link: 'https://forms.gle/sdgWuY8SbM5vREUE7' },
+    { name: 'Basketball', time: '', block: 'R-Block',       image: basketball, link: 'https://forms.gle/obd7SdbVn1TiejYn6' },
+    { name: 'Badminton', time: '', block: 'R-Block',     image: Badminton, link: 'https://forms.gle/E2gHHVbUJYQWzXCG9' },
+     { name: 'Table-Tennis', time: '', block: 'R-Block',     image: TableTennis, link: 'https://forms.gle/JgEVcQsLGdKEfZCH6' },
+     { name: 'Chess', time: '', block: 'R-Block',    image: Chess, link: 'https://forms.gle/JgEVcQsLGdKEfZCH6' },
+     { name: 'Carrom', time: '', block: 'R-Block',    image: carrom, link: 'https://forms.gle/JgEVcQsLGdKEfZCH6' },
+   { name: 'Race', time: '', block: 'R-Block',     image: running, link: 'https://forms.gle/JgEVcQsLGdKEfZCH6' },
+    { name: 'Volleyball', time: '', block: 'R-Block',     image: Volleyball, link: 'https://forms.gle/rpz953UCYbqwztxL8' },
+    { name: 'Football(Boys)', time: '', block: 'R-Block',     image:Football , link: 'https://forms.gle/pZhChZQhRKHsFAtv7' },
+    { name: 'Kho-Kho', time: '', block: 'R-Block',      image:kho, link: 'https://forms.gle/ZKw15PAtRnDMP6kQ7' },
+    { name: 'Kabaddi(Boys)', time: '', block: 'R-Block',    image: Kabaddi, link: 'https://forms.gle/trTfLXmUnGn8WyGm6' },
+    { name: 'Tug of War', time: '', block: 'R-Block',    image: tugofwar, link: 'https://forms.gle/h64ft6dzjDmSDG7s9' },
+     { name: 'Discus Throws', time: '', block: 'R-Block',     image: discusthrow , link: 'https://forms.gle/JgEVcQsLGdKEfZCH6' },
+     { name: 'Long Jump', time: '', block: 'R-Block',      image: longjump, link: 'https://forms.gle/JgEVcQsLGdKEfZCH6' },
+     { name: 'Shot Put', time: '', block: 'R-Block',     image: shotput, link: 'https://forms.gle/JgEVcQsLGdKEfZCH6' },
+      { name: 'Slow Cycling(Girls)', time: '', block: 'R-Block',      image: slowcycling , link: 'https://forms.gle/JgEVcQsLGdKEfZCH6' },
+ 
+
   ];
 
   const pastevents = [
