@@ -62,8 +62,13 @@ const HeroSection = ({ images }) => {
           <p className="quote">
             "Unleash Your True Potential!"<br />
             Step up, show your strength, and prove<br />
-            that capability knows no limits!
+            that capability knows no limits!<br/>
+            <br/>
+                Let The Timer Begin
           </p>
+
+
+          
 
           <div className="sponsors-section">
             <div className="sponsors-logos">
