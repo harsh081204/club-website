@@ -46,13 +46,14 @@ const About = () => {
     { name: "Vibhanshu Shrivastava", role:"Lead Editor", image: "/Members/Vibhanshu.jpg"  },
     { name: "Anant Nigam", role: "Editor", image: "/Members/Anant.png" },
     { name: "Nandini Gupta", role: "Editor", image: "/Members/Nandini.jpg" },
+    { name: "Rashi Arora", role: "Editor", image: "/Members/rashi_arora.jpg" },
     { name: "Bhoomi Saini", role: "Member", image: "/Members/Bhoomi.jpg" }
     
     
   ];
 
   const Videographer = [
-    { name: "Prakash Dixit", role: "Head Photographer", image: "/Members/Prakash.jpg" },
+    // { name: "Prakash Dixit", role: "Head Photographer", image: "/Members/Prakash.jpg" },
     { name: "Uday Gupta", role: "Member", image: "/Members/uday.jpg" },
     { name: "Ashwani Singh Senger", role: "Member", image: "/Members/Ashwani.jpeg.jpg" },
     { name: "Pratyush Gupta", role: "Member", image: "/Members/Pratyush.jpg" },
