@@ -50,9 +50,7 @@ const Upevent = () => {
   
   return (
     <div className="events-page">
-      <header className="events-header">
-        <img src={footprintbg} alt="event" className="fit-image" />
-      </header>
+      
 
       <section className="register-section">
         <h2>Register Now</h2>
